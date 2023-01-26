@@ -3,9 +3,9 @@
 
     Background:
 
-      Given Me encuentro en la pagina de https://www.mercadolibre.com.co/
+      Given I am on the website of https://www.mercadolibre.com.co/
 
-      Scenario Outline: <Select and validate>
+    Scenario Outline: <Select and validate>
 
         When Reload the page and validate the logo on the page.
 
